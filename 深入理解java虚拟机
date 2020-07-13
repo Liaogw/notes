@@ -1,1 +1,24 @@
 # 深入理解java虚拟机
+
+## 走进java
+### 概述
+   Java不仅仅是一门编程语言，它还是一个由一系列计算机软件和规范组成的技术体系，这个体系提供了完整的用于软件开发和跨平台部署的支持环境。
+### Java技术体系
+   JCP: Java Community Process. Java社区。
+   Java技术体系包括： Java程序设计语言、各硬件平台上的Java虚拟机实现、Class文件格式、Java类库API、第三方Java类库
+   Jakarta EE：雅加达EE , Java EE 新名字。
+### Java发展史
+   1991年4月诞生--Oak，1995年5月23由Oak改为Java，并正式发布1.0版本，提出“Write Once，Run Anywhere”口号。
+   1998年12月发布1.2，把Java技术体系拆分成三个方向：J2SE、J2EE、J2ME。出现代表性技术：EJB、Java Plug-in、Java IDL、Swing， 双亲委派机制引入。
+   1999年4月，HotSpot虚拟机诞生。JDK1.3后改为JDK默认Java虚拟机。
+   2004年9月发布 JDK5,JDK5在语法易用性上做了很大的改动，如：自动装箱、泛型、动态注解、枚举、可变长参数、遍历循环（forEach循环）。
+   2006年12月发布JDK6, 改进动态语言支持、提供编译期注解和微型HTTP服务器API, 对Java虚拟机内部做了大量优化，锁和同步、垃圾回收、类加载。
+   2011年7月，JDK7发布，提供新的G1收集器，可并行的类加载架构等。
+   2014年3月发布JDK8，支持Lambda表达式支持， 新的时间、日期API，移除HotSpot的永久代......
+   ......
+   2018年3月 jdk10, var ？
+   2018年9月 jdk11。
+   2019年3月 jdk12， Switch表达式、Java微测试套件等新功能。
+   ... 最新版 15 即将发布
+   
+   
